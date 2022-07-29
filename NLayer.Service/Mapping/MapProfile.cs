@@ -9,14 +9,15 @@ using System.Threading.Tasks;
 
 namespace NLayer.Service.Mapping
 {
-    public class MapProfile:Profile
+    public class MapProfile : Profile
     {
         public MapProfile()
         {
-           CreateMap<Product, ProductDto>().ReverseMap(); //ReverseMap() fonksiyonu sayesin de ProductDto'yu Product'a da çevirebiliriz.
-           CreateMap<Category, CategoryDto>().ReverseMap();
-           CreateMap<ProductFeature, ProductFeatureDto>().ReverseMap();
+            CreateMap<Product, ProductDto>().ReverseMap(); //ReverseMap() fonksiyonu sayesin de ProductDto'yu Product'a da çevirebiliriz.
+            CreateMap<Category, CategoryDto>().ReverseMap();
+            CreateMap<ProductFeature, ProductFeatureDto>().ReverseMap();
             CreateMap<ProductUpdateDto, Product>();
+            CreateMap<Product, ProductWithCategoryDto>();
         }
     }
 }

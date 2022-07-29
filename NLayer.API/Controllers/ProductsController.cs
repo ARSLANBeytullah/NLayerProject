@@ -13,12 +13,25 @@ namespace NLayer.API.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IService<Product> _service;
+        private readonly IProductService productService;
 
-        public ProductsController(IMapper mapper, IService<Product> service)
+       
+
+        public ProductsController(IMapper mapper, IService<Product> service, IProductService productService)
         {
             _mapper = mapper;
             _service = service;
+            this.productService = productService;
         }
+
+
+        [HttpGet("[action]")]  //Birden fazla HttpGet olduğu için çakışma olur buna dikkat ediyoruz.Normal de bu method için kullanılacak attribte [HttpGet("[GetProductWithCategory]"] olacaktı ama ileride olurda method ismini değiştirdiğimiz de bize sıkıntı yaşatacaktı.Ben de statik bir yapı kullanmaktansa dinamik bir yapı kullandım ve [HttpGet("[action]")] yapısını kullandım.
+        public async Task<IActionResult> GetProductWithCategory()
+        {
+            return CreateActionResult(await productService.GetProductsWitCategory());
+        }
+
+
         //GET api/products
         [HttpGet]
         public async Task<IActionResult> All()
