@@ -1,5 +1,5 @@
 # NLayerProject
-Technologies and structures that I used in this project.
+Technologies and structures that I used in this project:
 .Net 6 
 N-Tier Architecture
 Fluent API
