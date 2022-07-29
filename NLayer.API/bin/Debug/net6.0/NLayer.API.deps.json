@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "NLayer.API/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
           "NLayer.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"

@@ -1,10 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace NLayer.Repository.Migrations
 {
-    public partial class initial : Migration
+    public partial class InitialCreated : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -89,11 +90,11 @@ namespace NLayer.Repository.Migrations
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "Name", "Price", "Stock", "UpdatedDate" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2022, 1, 11, 0, 26, 55, 461, DateTimeKind.Local).AddTicks(2620), "Kalem 1", 100m, 20, null },
-                    { 2, 1, new DateTime(2022, 1, 11, 0, 26, 55, 461, DateTimeKind.Local).AddTicks(2632), "Kalem 2", 200m, 30, null },
-                    { 3, 1, new DateTime(2022, 1, 11, 0, 26, 55, 461, DateTimeKind.Local).AddTicks(2633), "Kalem 3", 600m, 60, null },
-                    { 4, 2, new DateTime(2022, 1, 11, 0, 26, 55, 461, DateTimeKind.Local).AddTicks(2634), "Kitap 1", 600m, 60, null },
-                    { 5, 2, new DateTime(2022, 1, 11, 0, 26, 55, 461, DateTimeKind.Local).AddTicks(2635), "Kitap 2", 6600m, 320, null }
+                    { 1, 1, new DateTime(2022, 7, 29, 17, 57, 54, 536, DateTimeKind.Local).AddTicks(4546), "Kalem 1", 100m, 20, null },
+                    { 2, 1, new DateTime(2022, 7, 29, 17, 57, 54, 536, DateTimeKind.Local).AddTicks(4559), "Kalem 2", 200m, 30, null },
+                    { 3, 1, new DateTime(2022, 7, 29, 17, 57, 54, 536, DateTimeKind.Local).AddTicks(4560), "Kalem 3", 600m, 60, null },
+                    { 4, 2, new DateTime(2022, 7, 29, 17, 57, 54, 536, DateTimeKind.Local).AddTicks(4561), "Kitap 1", 600m, 60, null },
+                    { 5, 2, new DateTime(2022, 7, 29, 17, 57, 54, 536, DateTimeKind.Local).AddTicks(4562), "Kitap 2", 6600m, 320, null }
                 });
 
             migrationBuilder.InsertData(

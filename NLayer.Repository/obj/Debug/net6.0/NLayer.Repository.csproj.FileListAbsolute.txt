@@ -1,4 +1,5 @@
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.deps.json
+C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.dll
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.pdb
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Core.dll
@@ -12,6 +13,5 @@ C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.dll
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\refint\NLayer.Repository.dll
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.pdb
-C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\ref\NLayer.Repository.dll
-C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json
 C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\NLayer.Repository.genruntimeconfig.cache
+C:\Users\Beytullah\source\repos\NLayerUdemyApp\NLayer.Repository\obj\Debug\net6.0\ref\NLayer.Repository.dll
